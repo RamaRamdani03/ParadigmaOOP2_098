@@ -31,4 +31,17 @@ public:
 
 
 
-};
+}; 
+
+int main() {
+	seseorang* orang;
+	joko a;
+	lia b;
+
+	orang = &a;
+	orang->pesan();
+	orang = &b;
+	orang->pesan();
+	//a. seseorang::pesan();	//memanggil method yang berada di class orang tua
+	//b. seseorang::pesan();
+}
